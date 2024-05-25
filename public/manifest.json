@@ -1,0 +1,23 @@
+
+{
+  "short_name": "Portfolio",
+  "name": "Anand's Portfolio",
+  "description": "An accomplished Machine Learning Engineer with expertise in Full Stack Web Development and Mobile App Development.",
+  "icons": [
+    {
+      "src": "./favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#11cdef",
+  "background_color": "#11cdef"
+}
+
