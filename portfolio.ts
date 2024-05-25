@@ -1,8 +1,7 @@
 import emoji from "react-easy-emoji";
 import {
   EducationType,
-  ExperienceType,
-  FeedbackType,
+  ExperienceType,  
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
@@ -210,6 +209,9 @@ export const projects: ProjectType[] = [
   },
 ];
 
+
+
+// See object prototype on /types/section.ts page
 
 export const seoData: SEODataType = {
   title: "Jeeva Anand",
