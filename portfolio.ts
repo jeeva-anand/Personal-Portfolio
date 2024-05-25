@@ -210,28 +210,6 @@ export const projects: ProjectType[] = [
   },
 ];
 
-// export const feedbacks: FeedbackType[] = [
-//   {
-//     name: "",
-//     role: "",
-//     feedback:
-//       "",
-//   },
-//   {
-//     name: "",
-//     role: "",
-//     feedback:
-//       "",
-//   },
-//   {
-//     name: "",
-//     role: "",
-//     feedback:
-//       "",
-//   },
-// ];
-
-// See object prototype on /types/section.ts page
 
 export const seoData: SEODataType = {
   title: "Jeeva Anand",
