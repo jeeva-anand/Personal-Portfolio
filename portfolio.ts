@@ -14,10 +14,8 @@ export const greetings: GreetingsType = {
   name: "Anand",
   title: "Hi all, I'm Anand",
   description:
-    "I'm Anand, a results-driven software engineer with a profound background in " +
-    "computer science and a keen interest in cutting-edge technologies. " +
-    "I am pursuing a Master's in Computer Science at St. Joseph’s University, Bengaluru. ",
-  resumeLink: "#",
+    "I am a Machine Learning Engineer and currently pursuing an MSc in Artificial Intelligence at De Montfort University Dubai. I am passionate about building intelligent systems that transform data into actionable insights. My experience includes developing end-to-end machine learning applications involving data preprocessing, feature engineering, model training, evaluation, and deployment.",
+  resumeLink: "https://drive.google.com/file/d/13CJdFag86FhBb2O0ZoPSu-dDCX1KyVoe/view?usp=sharing",
 };
 
 export const openSource = {
@@ -36,15 +34,19 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I like to do",
-  subTitle: "COMPETITIVE PROGRAMMER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Transforming raw data into Intelligent systems",
   data: [
     {
-      title: "Software Developer",
-      lottieAnimationFile: "/lottie/skills/simple.json", 
+      title: "Machine Learning Engineer",
+      lottieAnimationFile: "/lottie/skills/ML.json", 
       skills: [
-        emoji("⚡ Data Structure and Algorithm using Java"),
-        emoji("⚡ Building responsive Single-Page-Apps in React.js"),        
+        emoji("⚡ Data Collection, Cleaning, and Feature Engineering"),
         emoji("⚡ Building real world Machine Learning Models"),
+        emoji("⚡ Web Scraping and Data Acquisition"),
+        emoji("⚡ End-to-End Machine Learning Pipelines"),
+        emoji("⚡ Deploy Intelligent Models for Real-World Impact"),
+        emoji("⚡ Data Structure and Algorithm using Java")      
+        
       ],
       softwareSkills: [
         {
@@ -56,33 +58,33 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "vscode-icons:file-type-java",
         },
         {
-          skillName: "JavaScript",
-          iconifyTag: "logos:javascript",
+          skillName: "Scikit learn",
+          iconifyTag: "devicon:scikitlearn",
         },
         {
-          skillName: "Reactjs",
-          iconifyTag: "vscode-icons:file-type-reactjs",
+          skillName: "Numpy",
+          iconifyTag: "devicon:numpy",
         },
-        // {
-        //   skillName: "Nextjs",
-        //   iconifyTag: "vscode-icons:file-type-light-next",
-        // },
+        {
+          skillName: "Pandas",
+          iconifyTag: "devicon:pandas",
+        },
         {
           skillName: "AWS",
           iconifyTag: "logos:aws",
         },
-        // {
-        //   skillName: "Heroku",
-        //   iconifyTag: "logos:heroku-icon",
-        // },
+        {
+          skillName: "Heroku",
+          iconifyTag: "logos:heroku-icon",
+        },
         {
           skillName: "Github",
           iconifyTag: "akar-icons:github-fill",
         },
-        // {
-        //   skillName: "Docker",
-        //   iconifyTag: "logos:docker-icon",
-        // },
+        {
+          skillName: "Streamlit",
+          iconifyTag: "simple-icons:streamlit",
+        },
       ],
     },
   ],
@@ -90,28 +92,37 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: "Frontend", 
+    Stack: "Data Analysis",
+    progressPercentage: "90",
+  },
+  {
+    Stack: "Machine Learning", 
     progressPercentage: "85", 
   },
   {
-    Stack: "Backend",
-    progressPercentage: "90",
+    Stack: "Natural Language Processing",
+    progressPercentage: "85",
   },
   {
-    Stack: "Programming",
-    progressPercentage: "95",
-  },
+    Stack: "Model Development",
+    progressPercentage: "90",
+  },  
   {
     Stack: "DSA",
     progressPercentage: "90",
-  },
-  {
-    Stack: "Data Analysis",
-    progressPercentage: "80",
-  },
+  }
+  
 ];
 
 export const educationInfo: EducationType[] = [
+  {
+    schoolName: "De Montfort University",
+    subHeader: "Master of Science in Artificial intelligence",
+    duration: "Feb 2026 - Feb 2027",
+    desc: "",
+    grade: "",
+    descBullets: [], // Array of Strings
+  },
   {
     schoolName: "St Joseph's University",
     subHeader: "Master of Science in Computer Science",
@@ -127,31 +138,38 @@ export const educationInfo: EducationType[] = [
     desc: "",
     grade: "Grade A",
     descBullets: [], // Array of Strings
-  },
+  }
   
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "Artificial Intelligence Research Assistant",
-    company: "",
+    role: "Assistant Professor",
+    company: "St Joseph's University",
     companyLogo: "/img/icons/common/sjc.png",
     date: "July 2023 - April 2024",
-    desc: "Specialized in developing and deploying machine learning models for precise classification of human activities based on sensor data. Proficient in analyzing and preprocessing extensive datasets from wearable sensors, such as accelerometers and gyroscopes, to enhance model accuracy. Conducted comprehensive feature extraction and selection to pinpoint the most pertinent features for activity classification. Presented original research findings at the esteemed International Conference on Advances in Intelligent Systems, Cloud Computing, and Security (ICAICS 2024).",
+    desc: "",
   },
   {
-    role: "Postgraduate Research Assistant",
-    company: "",
+    role: "Assistant Professor",
+    company: "HKBK College of Engineering",
+    companyLogo: "/img/icons/common/HKBK-logo.jpg",
+    date: "July 2023 - April 2024",
+    desc: "",
+  },
+  {
+    role: "Artificial Intelligence Research Assistant",
+    company: "St Joseph's University",
     companyLogo: "/img/icons/common/sjc.png",
-    date: "July 2023 - December 2023",
-    desc: "Innovated a software solution to streamline timetable creation for the department, enhancing efficiency and productivity. Designed and implemented a user-friendly interface enabling faculty members to input data seamlessly and generate timetables effortlessly. Authored comprehensive documentation encompassing usage guidelines and technical specifications to facilitate user adoption and understanding.",
+    date: "July 2023 - April 2024",
+    desc: "",
   }, 
   {
-    role: "Backend Developer",
+    role: "Software Engineer",
     company: "AINQA",
     companyLogo: "/img/icons/common/Ainqa.jpg",
     date: "June 2021 - June 2022",
-    desc: "Experienced in bug fixing within the Spring Boot environment, adept at promptly addressing issues to enhance system performance. Demonstrated leadership in identifying and resolving backend system issues for optimal functionality. Proactively engaged in code reviews to elevate code quality and foster a collaborative development environment. Skilled at collaborating with front-end developers to tackle intricate technical challenges and ensure seamless integration."
+    desc: ""
 
 
   },  
@@ -173,40 +191,41 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: "Portfolio",
-    desc: "Developed a personal portfolio for a software engineer using the Next.js framework along with various React libraries and tools. Utilized Next.js for server-side rendering and routing, ensuring fast performance. Utilized Reactstrap for building responsive UI components based on Bootstrap styles. Incorporated React Reveal for adding animations and transitions to elements, enhancing user engagement. Integrated React Lottie for rendering animations in JSON format, providing dynamic visual effects.",
+    name: "Semantic Sentiment Classification",
+    desc: "Semantic sentiment classification system using NLP and Machine Learning. Compares BoW, TF-IDF, Word2Vec, and Doc2Vec embeddings with multiple classifiers to understand contextual sentiment in real-world text.",
     link: "",
+    github:"https://github.com/jeeva-anand/Semantic-Sentiment-Classification"
   },
   {
-    name: "Time Table generator",
-    desc: "I designed a software solution to automate the creation of departmental timetables, developing a user-friendly interface that allows faculty to easily input data and generate schedules. Additionally, I created comprehensive documentation for technical specifications.",
-    link: "https://timetable-application.vercel.app/",
+    name: "IPL Win Prediction",
+    desc: "IPL Win Predictor using Machine Learning and Streamlit. The project performs data preprocessing, feature engineering, model training, and real-time match outcome prediction based on live match conditions.",
+    link: "https://what-schatanalysis-hqh3vsmo3ekacakmdewwq8.streamlit.app/",
+    github:"https://github.com/jeeva-anand/IPL-Win-Prediction"
   },
   {
-    name: "COVID-2022 Tracker",
-    desc: "This project provides real-time updates on the status of the coronavirus (Infected, Deaths, and Recovered) for each country. It is a fully functional COVID-22 Tracker application that delivers insights and the latest numbers on the coronavirus. ",
-    link: "https://covid-19-d718e.web.app/",
+    name: "Loan Eligibility Classifier",
+    desc: "",
+    link: "",
+    github:"https://github.com/jeeva-anand/Loan-Eligibility-Classifier"
   },
   {
-    name: "Netflix Clone ",
-    desc: "Crafted a Netflix clone for Android utilizing the Android stack. Engineered the frontend using Java/Kotlin and XML layouts, incorporating Android Jetpack components for seamless navigation and user interaction.Implemented key features such as video streaming, personalized recommendations, user profiles, and offline viewing capabilities, mimicking the functionalities of the original Netflix platform. ",
-    github:"https://github.com/jeeva-anand/Android-Projects/tree/main"
+    name: "WhatsApp Chat Analysis",
+    desc: "A data-driven NLP application that transforms raw WhatsApp chat exports into actionable insights using Python and Streamlit. Explore conversation trends, user behavior, emoji patterns, word usage, and communication dynamics through interactive analytics.",
+    link: "https://what-schatanalysis-hqh3vsmo3ekacakmdewwq8.streamlit.app/",
+    github:"https://github.com/jeeva-anand/WhatsApp-Chat-Analysis"
   },
   {
-    name: "YouTube Clone",
-    desc: "Developed a YouTube clone for Android using the Android stack. Engineered the frontend with Java/Kotlin, XML layouts, and Android Jetpack components for a seamless user experience. Leveraged Firebase for backend services such as authentication, real-time database, and cloud storage, ensuring efficient data management and synchronization.  ",
-    github:"https://github.com/jeeva-anand/Android-Projects/tree/main/Youtube-Clone"
+    name: "Course Recommendation System",
+    desc: "A Content based recommendation System that suggests similar courses using Natural Language Processing and cosine similarity on course metadata.",
+    link: "https://course-recommendation-system-ia4mbvmbnmpz6tw2ldsx6e.streamlit.app/",
+    github:"https://github.com/jeeva-anand/Course-Recommendation-System"
   },
   {
-    name: "What's App Clone",
-    desc: "Created a WhatsApp clone for Android using the Android stack.Designed a user-friendly interface following Material Design guidelines, providing a familiar and seamless messaging experience for Android users. ",
-    github:"https://github.com/jeeva-anand/Android-Projects/tree/main/Youtube-Clone"
-  },
-   {
-    name: "Machine Learning Models",
-    desc: "Linear Regression, a fundamental supervised learning algorithm used for predicting continuous target variables. Naive Bayes classifier, a simple yet powerful probabilistic classifier based on Bayes' theorem with strong independence assumptions between the features. Naive Bayes is often used for text classification tasks, spam filtering, and sentiment analysis.... ",
-    github:"https://github.com/jeeva-anand/Machine-Learning-Project"
-  },
+    name: "Mall Customer Segmentation",
+    desc: "Customer segmentation system using unsupervised machine learning (K-Means clustering) to group mall customers based on income, age, and spending behavior for targeted marketing strategies.",
+    link: "",
+    github:"https://github.com/jeeva-anand/Mall-Customer-Segmentation"
+  }
 ];
 
 
