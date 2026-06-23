@@ -8,10 +8,15 @@ const Proficiency = () => {
   return (
     SkillBars && (
       <Container className="section section-lg">
-        <Fade bottom duration={2000}>
+        
+          
+          <Fade bottom duration={2000}>
+          
           <Row>
             <Col lg="6">
-              <h1 className="h1">Proficiency</h1>
+              
+              {/* <h1 className="h1">Proficiency</h1> */}
+              <h1  className="display-3 text-info">Proficiency</h1>
               {SkillBars.map(skill => {
                 return (
                   <div className="progress-info" key={skill.Stack}>
@@ -37,6 +42,8 @@ const Proficiency = () => {
             </Col>
           </Row>
         </Fade>
+        
+        
       </Container>
     )
   );
