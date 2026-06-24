@@ -192,6 +192,12 @@ export const experience: ExperienceType[] = [
 export const projects: ProjectType[] = [
   
   {
+    name: "Loan Eligibility Classifier",
+    desc: "ML-powered loan eligibility prediction system using classification algorithms, feature engineering, and Streamlit for real-time decision support.",
+    link: "https://loan-eligibility-classifier-ml-application.streamlit.app/",
+    github:"https://github.com/jeeva-anand/Loan-Eligibility-Classifier"
+  },
+  {
     name: "IPL Win Prediction",
     desc: "IPL Win Predictor using Machine Learning and Streamlit. The project performs data preprocessing, feature engineering, model training, and real-time match outcome prediction based on live match conditions.",
     link: "https://what-schatanalysis-hqh3vsmo3ekacakmdewwq8.streamlit.app/",
@@ -220,13 +226,7 @@ export const projects: ProjectType[] = [
     desc: "Semantic sentiment classification system using NLP and Machine Learning. Compares BoW, TF-IDF, Word2Vec, and Doc2Vec embeddings with multiple classifiers to understand contextual sentiment in real-world text.",
     link: "",
     github:"https://github.com/jeeva-anand/Semantic-Sentiment-Classification"
-  },
-  {
-    name: "Loan Eligibility Classifier",
-    desc: "",
-    link: "",
-    github:"https://github.com/jeeva-anand/Loan-Eligibility-Classifier"
-  },
+  }  
 ];
 
 
