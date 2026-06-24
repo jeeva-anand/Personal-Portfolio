@@ -147,16 +147,16 @@ export const experience: ExperienceType[] = [
     role: "Assistant Professor",
     company: "St Joseph's University",
     companyLogo: "/img/icons/common/sjc.png",
-    date: "July 2023 - April 2024",
+    date: "August 2024 - February 2026",
     desc: "",
   },
-  {
-    role: "Assistant Professor",
-    company: "HKBK College of Engineering",
-    companyLogo: "/img/icons/common/HKBK-logo.jpg",
-    date: "July 2023 - April 2024",
-    desc: "",
-  },
+  // {
+  //   role: "Assistant Professor",
+  //   company: "HKBK College of Engineering",
+  //   companyLogo: "/img/icons/common/HKBK-logo.jpg",
+  //   date: "July 2023 - April 2024",
+  //   desc: "",
+  // },
   {
     role: "Artificial Intelligence Research Assistant",
     company: "St Joseph's University",
@@ -190,24 +190,13 @@ export const experience: ExperienceType[] = [
 
 
 export const projects: ProjectType[] = [
-  {
-    name: "Semantic Sentiment Classification",
-    desc: "Semantic sentiment classification system using NLP and Machine Learning. Compares BoW, TF-IDF, Word2Vec, and Doc2Vec embeddings with multiple classifiers to understand contextual sentiment in real-world text.",
-    link: "",
-    github:"https://github.com/jeeva-anand/Semantic-Sentiment-Classification"
-  },
+  
   {
     name: "IPL Win Prediction",
     desc: "IPL Win Predictor using Machine Learning and Streamlit. The project performs data preprocessing, feature engineering, model training, and real-time match outcome prediction based on live match conditions.",
     link: "https://what-schatanalysis-hqh3vsmo3ekacakmdewwq8.streamlit.app/",
     github:"https://github.com/jeeva-anand/IPL-Win-Prediction"
-  },
-  {
-    name: "Loan Eligibility Classifier",
-    desc: "",
-    link: "",
-    github:"https://github.com/jeeva-anand/Loan-Eligibility-Classifier"
-  },
+  },  
   {
     name: "WhatsApp Chat Analysis",
     desc: "A data-driven NLP application that transforms raw WhatsApp chat exports into actionable insights using Python and Streamlit. Explore conversation trends, user behavior, emoji patterns, word usage, and communication dynamics through interactive analytics.",
@@ -223,9 +212,21 @@ export const projects: ProjectType[] = [
   {
     name: "Mall Customer Segmentation",
     desc: "Customer segmentation system using unsupervised machine learning (K-Means clustering) to group mall customers based on income, age, and spending behavior for targeted marketing strategies.",
-    link: "",
+    link: "https://mall-customer-segmentation-fhzkknhmziysfvxcmsemc2.streamlit.app/",
     github:"https://github.com/jeeva-anand/Mall-Customer-Segmentation"
-  }
+  },
+  {
+    name: "Semantic Sentiment Classification",
+    desc: "Semantic sentiment classification system using NLP and Machine Learning. Compares BoW, TF-IDF, Word2Vec, and Doc2Vec embeddings with multiple classifiers to understand contextual sentiment in real-world text.",
+    link: "",
+    github:"https://github.com/jeeva-anand/Semantic-Sentiment-Classification"
+  },
+  {
+    name: "Loan Eligibility Classifier",
+    desc: "",
+    link: "",
+    github:"https://github.com/jeeva-anand/Loan-Eligibility-Classifier"
+  },
 ];
 
 
