@@ -198,6 +198,12 @@ export const projects: ProjectType[] = [
     github:"https://github.com/jeeva-anand/Loan-Eligibility-Classifier"
   },
   {
+    name: "Semantic Sentiment Classification",
+    desc: "Semantic sentiment classification system using NLP and Machine Learning. Compares BoW, TF-IDF, Word2Vec, and Doc2Vec embeddings with multiple classifiers to understand contextual sentiment in real-world text.",
+    link: "https://drive.google.com/file/d/19k1yDoZHqkIWetyx94SC8nyDCNNpt52z/view?usp=sharing",
+    github:"https://github.com/jeeva-anand/Semantic-Sentiment-Classification"
+  },
+  {
     name: "IPL Win Prediction",
     desc: "IPL Win Predictor using Machine Learning and Streamlit. The project performs data preprocessing, feature engineering, model training, and real-time match outcome prediction based on live match conditions.",
     link: "https://what-schatanalysis-hqh3vsmo3ekacakmdewwq8.streamlit.app/",
@@ -220,13 +226,8 @@ export const projects: ProjectType[] = [
     desc: "Customer segmentation system using unsupervised machine learning (K-Means clustering) to group mall customers based on income, age, and spending behavior for targeted marketing strategies.",
     link: "https://mall-customer-segmentation-fhzkknhmziysfvxcmsemc2.streamlit.app/",
     github:"https://github.com/jeeva-anand/Mall-Customer-Segmentation"
-  },
-  {
-    name: "Semantic Sentiment Classification",
-    desc: "Semantic sentiment classification system using NLP and Machine Learning. Compares BoW, TF-IDF, Word2Vec, and Doc2Vec embeddings with multiple classifiers to understand contextual sentiment in real-world text.",
-    link: "",
-    github:"https://github.com/jeeva-anand/Semantic-Sentiment-Classification"
-  }  
+  }
+  
 ];
 
 
