@@ -208,7 +208,7 @@ export const projects: ProjectType[] = [
   {
     name: "Semantic Sentiment Classification",
     desc: "Semantic sentiment classification system using NLP and Machine Learning. Compares BoW, TF-IDF, Word2Vec, and Doc2Vec embeddings with multiple classifiers to understand contextual sentiment in real-world text.",
-    link: "https://drive.google.com/file/d/19k1yDoZHqkIWetyx94SC8nyDCNNpt52z/view?usp=sharing",
+    link: "https://huggingface.co/spaces/jeeva3/Sentiment-Analysis",
     github:"https://github.com/jeeva-anand/Semantic-Sentiment-Classification"
   },
   {
